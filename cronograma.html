@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="desplegabl.css">
+    <link rel="stylesheet" href="riel.css">
+    <link rel="stylesheet" href="pie.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="tablas.css">
+</head>
+<body>
+    
+    <!-- El checkbox controla el estado del menú -->
+    <input type="checkbox" id="btn-nav" class="checkbox-menu">
+
+    <!-- Botón para abrir (hamburguesa) -->
+    <header class="header">
+        <label for="btn-nav" class="btn-open">☰</label>
+    </header>
+
+    <!-- Menú lateral -->
+ <nav class="sidebar">
+        <div class="sidebar-header">
+            <h3>Carúpano</h3>
+            <label for="btn-nav" class="btn-close">✕</label>
+        </div>
+   <!-- Dentro del <nav class="sidebar"> -->
+<ul class="nav-links">
+    <li><a href="index.html">Inició</a></li>
+      <li><a href="cronograma.html">Cronograma</a></li>
+    
+    <!-- Item con Submenú -->
+    <li class="item-has-submenu">
+        <input type="checkbox" id="sub-btn-1" class="sub-checkbox">
+        <label for="sub-btn-1" class="sub-label">
+            Destinos turísticos  <span class="arrow">▼</span>
+        </label>
+        
+        <ul class="submenu">
+            <li><a href="playas.html">Playas </a></li>
+            <li><a href="rios.html">Rios y lagunas</a></li>
+            <li><a href="plazas.html">Plazas </a></li>
+            <li><a href="parques..html">Parques </a></li>
+        </ul>
+    </li>
+
+      <li class="item-has-submenu">
+        <input type="checkbox" id="sub-btn-4" class="sub-checkbox">
+        <label for="sub-btn-4" class="sub-label">
+         Otros sitios de interés  <span class="arrow">▼</span>
+        </label>
+        
+        <ul class="submenu">
+      
+           
+            <li><a href="otros_s.html">Sitios historicos </a></li>
+            <li><a href="monumentos_r.html">Monumentos religiosos  </a></li>
+           
+        </ul>
+    </li>
+
+     <li class="item-has-submenu">
+        <input type="checkbox" id="sub-btn-2" class="sub-checkbox">
+        <label for="sub-btn-2" class="sub-label">
+           Alojamiento  <span class="arrow">▼</span>
+        </label>
+        
+        <ul class="submenu">
+            <li><a href="hoteles.html">Hoteles </a></li>
+            <li><a href="posadas.html">Posadas</a></li>
+          
+        </ul>
+    </li>
+
+    <li><a href="comidas_vrvidas.html">Alimentos y bebidas</a></li>
+ 
+
+      <li class="item-has-submenu">
+        <input type="checkbox" id="sub-btn-22" class="sub-checkbox">
+        <label for="sub-btn-22" class="sub-label">
+           Salud <span class="arrow">▼</span>
+        </label>
+        
+        <ul class="submenu">
+            <li><a href="salud.html">Centros de salud  </a></li>
+            <li><a href="farmacia.html">Farmacias </a></li>
+         
+        </ul>
+    </li>
+
+
+
+
+     <li><a href="segutidad.html">Seguridad</a></li>
+
+
+       <li class="item-has-submenu">
+        <input type="checkbox" id="sub-btn-3" class="sub-checkbox">
+        <label for="sub-btn-3" class="sub-label">
+           Transporte  <span class="arrow">▼</span>
+        </label>
+        
+        <ul class="submenu">
+            <li><a href="urbano.html">Ubano </a></li>
+        </ul>
+    </li>   
+      <li><a href="estacion_s.html">Estaciones de servicio    </a></li>
+</ul>
+    </nav>
+
+    <!-- Capa oscura de fondo al abrir (opcional) -->
+    <label for="btn-nav" class="overlay"></label>
+  <!-- riel de img (opcional) -->
+    <div class="slider-container">
+        <div class="slider-track">
+            <img src="c1.jpg" alt="Paisaje 1">
+            <img src="r1.jpeg" alt="Paisaje 2">
+            <img src="r3.jpeg" alt="Paisaje 3">
+            <img src="r4.jpeg" alt="Paisaje 3">
+            <img src="r5.jpeg" alt="Paisaje 3">
+            <img src="letras.jpeg" alt="Paisaje 3">
+        </div>
+    </div>
+
+          <!-- El contenedor es clave para el scroll en celulares -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Actividad</th>
+                    <th>Lugar</th>
+                    <th>Hora</th>
+                 <th>Participación</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+
+           <tr>
+                    <td> SABADO
+07/02/26</td>
+                    <td> Presentación a la prensa </td>
+                    <td>MACARAPANA  </td>
+                    <td> 07:00 pm</td>
+                    <td>Grupos locales, animador, Mini
+Candidatas, Candidatas, bailarines,
+medios de comunicación e invitados
+especiales.</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> MARTES
+10/02/26</td>
+                    <td> 2da Caravana Candidatas y
+mini candidatas</td>
+                    <td> Calle juncal </td>
+                    <td>04:00 pm </td>
+                    <td> Candidatas y Mini Candidatas</td>
+         </tr>
+
+
+
+         
+           <tr>
+                    <td> Viernes
+13/02/26</td>
+                    <td> Elección y Coronación de la
+Reina Y Mini Reina del
+Carnaval</td>
+                    <td> Parque Recreacional
+Rafael Montaño</td>
+                    <td> 07:00 pm</td>
+                    <td>Candidatas, Bailarines, Grupos
+Musicales- Nacionales y locales,
+animadores</td>
+         </tr>
+
+
+
+
+         
+           <tr>
+                    <td>Sábado
+14/02/26 </td>
+                    <td>Recorridos Musicales </td>
+                    <td>Por las distintas calles
+de la ciudad </td>
+                    <td>09: 00 am </td>
+                    <td></td>
+         </tr>
+
+
+
+         
+           <tr>
+                    <td> Sábado
+14/02/26</td>
+                    <td> nicio del desfile escolar</td>
+                    <td> Parque Karupana
+Hasta el Templo
+Masónico</td>
+                    <td>04:00 pm </td>
+                    <td>Escuelas e Instituciones, Mini Reinas</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> Sábado
+14/02/26</td>
+                    <td> Carnaval Tradicional Elección
+y Coronación de
+muchachona</td>
+                    <td> Concha acústica Luis
+Mariano Rivera</td>
+                    <td> 07:00 pm</td>
+                    <td>Muchachonas, bailarines y grupos
+musicales, personalidades invitadas</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> Sábado
+14/02/26</td>
+                    <td>Concierto NOCHE DEL AMOR
+Y LA AMISTAD </td>
+                    <td>Centro Recreacional y
+Cultural “Don Rafael
+Montaño” </td>
+                    <td>07:00 pm </td>
+                    <td>Grupos musicales</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> Sábado
+14/02/26</td>
+                    <td> AUTO SONIDO</td>
+                    <td> Redoma de la Virgen</td>
+                    <td> 08:00 pm</td>
+                    <td></td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> Domingo
+15/02/26</td>
+                    <td> COMPETENCIA CARROS
+LOCOS</td>
+                    <td> Concha acústica Luis
+Mariano Rivera</td>
+                    <td>0:00 a.m  </td>
+                    <td>AUTOS LOCOS</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td>Domingo
+15/02/26 </td>
+                    <td> 1ER Desfile del Carnaval
+tradicional</td>
+                    <td> CARNAVALODROMO
+JUNCAL </td>
+                    <td> 05:00 p.m</td>
+                    <td>EINAS, MINI REINAS, BANDAS,
+CARROZAS, FANTASIAS, DESFILES,
+MINITECAS.</td>
+         </tr>
+
+
+                <tr>
+                    <td> Domingo
+15/02/26</td>
+                    <td>Noche RETRO </td>
+                    <td>Concha acústica Luis
+Mariano Rivera </td>
+                    <td> 08:00 p.m</td>
+                    <td>MINITECAS</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> Domingo
+15/02/26</td>
+                    <td> Concierto</td>
+                    <td> Centro Recreacional y
+Cultural “Don Rafael
+Montaño”</td>
+                    <td> 08:00 p.m</td>
+                    <td>GRUPOS MUSICALES</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td>Domingo
+15/02/26 </td>
+                    <td>AUTO SONIDO </td>
+                    <td>Redoma de la Virgen </td>
+                    <td>08:00 pm </td>
+                    <td></td>
+         </tr>
+
+
+         
+
+           <tr>
+                    <td> LUNES
+16/02/26</td>
+                    <td> Competencia botes
+peñeros</td>
+                    <td>Frente al templo
+masónico </td>
+                    <td> 10:00 a.m</td>
+                    <td>Botes peñeros</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> LUNES
+16/02/26</td>
+                    <td> 2do Desfile Integrados</td>
+                    <td> CARNAVALODROMO
+JUNCAL </td>
+                    <td> 04:00 p.m</td>
+                    <td>Minitecas, carnaval tradicional y
+carnaval escolar, Carrozas y
+comparsas</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td>LUNES
+16/02/26 </td>
+                    <td>Concierto </td>
+                    <td> Centro Recreacional y
+Cultural “Don Rafael
+Montaño”    </td>
+                    <td>08:00 p.m </td>
+                    <td>INFINITY</td>
+         </tr>
+
+
+         
+           <tr>
+                    <td>LUNES
+16/02/26 </td>
+                    <td>ACTIVIDAD POLAR </td>
+                    <td> Concha acústica Luis
+Mariano Rivera </td>
+                    <td>07:00 PM </td>
+                    <td></td>
+         </tr>
+
+
+         
+           <tr>
+                    <td> LUNES
+16/02/26</td>
+                    <td> NOCHE DE BRUJAS</td>
+                    <td>CARNAVALODROMO
+JUNCAL  </td>
+                    <td>10:00 PM </td>
+                    <td>CARROZAS Y COMPARSAS</td>
+         </tr>
+
+
+
+
+
+
+         
+           <tr>
+                    <td> Martes
+17/02/26</td>
+                    <td> Desfile de cierre
+Carnaval</td>
+                    <td>CARNAVALODROMO
+JUNCAL  </td>
+                    <td> 05:00 pm</td>
+                    <td>Carrozas, comparsas, hacedores
+de fantasía, candidatas,
+diversiones populares,
+minitecas, comunidades,
+Bandas Show</td>
+         </tr>
+
+
+           <tr>
+             <td>Martes
+17/02/26</td>
+                    <td> Concierto de cierre y
+festival pirotécnico</td>
+                    <td>Complejo
+Recreacional y
+Cultural “Don
+Rafael Montaño” </td>
+                    <td> 08:00 pm</td>
+                    <td> INFINITY</td>
+                   
+         </tr>
+        
+           <tr>
+                    <td>Martes
+17/02/26 </td>
+                    <td>Fuegos Artificiales </td>
+                    <td> </td>
+                    <td>9:00 pm </td>
+                    <td></td>
+         </tr>
+
+         
+           <tr>
+                    <td> Martes
+17/02/26</td>
+                    <td> AUTO SONIDO </td>
+                    <td> Redoma de la Virgen</td>
+                    <td> 08:00 pm</td>
+                    <td>EXHIBICIÓN DE LA CARROZA
+CARNIVAL FILM</td>
+         </tr>
+  
+           
+            </tbody>
+        </table>
+    </div>
+
+
+
+<footer class="footer-institucional">
+  <div class="fila-logos">
+  <img src="ll1.png" alt="Logo 2">
+    <img src="l6.png" alt="Logo 6">
+     <img src="l5.png" alt="Logo 5">
+        <img src="l3.PNG" alt="Logo 3">
+     <img src="l4.png" alt="Logo 4">
+     <img src="l7.png" alt="Logo 7">
+       <img src="l9.PNG" alt="Logo 9">
+    <img src="l1.png" alt="Logo 1">
+    <img src="l8.png" alt="Logo 8">
+   
+  </div>
+</footer>
+
+
+</body>
+</html>

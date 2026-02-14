@@ -1,0 +1,27 @@
+.fila-logos {
+  display: flex;
+  flex-direction: row;
+  /* CAMBIO CLAVE: Permite que los elementos salten a la siguiente línea */
+  flex-wrap: wrap;           
+  justify-content: center;
+  align-items: center;
+  gap: 20px;                 /* Aumenté un poco el espacio para que no se amontonen al bajar */
+  /* Eliminamos overflow-x: hidden para que se vea el contenido que baja */
+}
+
+.fila-logos img {
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+  /* Opcional: añade un margen inferior si el gap no es suficiente en algunos navegadores antiguos */
+  margin-bottom: 10px; 
+}
+
+/* El media query ya no es estrictamente necesario para el salto de línea, 
+   pero puedes dejarlo para ajustar espacios en móvil */
+@media (max-width: 400px) {
+  .fila-logos {
+    gap: 15px;
+    padding: 10px;
+  }
+}

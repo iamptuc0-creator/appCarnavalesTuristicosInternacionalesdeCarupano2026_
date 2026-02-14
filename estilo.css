@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00);
+  background-repeat: no-repeat;  /* Evita que el patrón se duplique */
+  background-attachment: fixed; /* Mantiene el fondo quieto al hacer scroll */
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Arial Black', sans-serif;
+ 
+}
+
+@keyframes vibrar {
+  0% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  100% { transform: rotate(1deg); }
+}
